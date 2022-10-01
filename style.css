@@ -1,0 +1,891 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+}
+
+body{
+    margin-left: 90px ;
+    margin-right: 90px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(55, 55, 58, 0.753);
+    width: 100%;
+}
+.logo{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    font-size: 20px;
+    color: white ;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.button-1{
+    padding: 10px 20px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.para-1{
+    background-color: rgba(55, 55, 58, 0.753 );
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.para-1-left{
+    margin-left: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.image-1{
+    width: 400px;
+    height: 400px;
+}
+
+.para-1-right > h2{
+    color: white;
+    font-size: 50px;
+    margin-right: 200px;
+    margin-top: 70px;
+    
+}
+
+.para-1-right > p{
+    color: rgb(185, 182, 182);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 18px 15px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border:none;
+    background-color: rgb(91, 136, 91);
+    color: white;
+    top: 6px;
+    right: 6px;
+}
+
+.para-2-middle{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.nav-items-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item-1{
+    padding: 20px 90px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.nav-items-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item-2{
+    padding: 0px 30px;
+    font-size: 15px;
+    margin-top: 0px;
+    margin-right: 50px;
+}
+
+/* .image-2{
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} */
+
+.image-0{
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 650px;
+    height: 300px;
+}
+
+.middle-1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-left>h3{
+    margin-top: 100px;
+     font-size: 50px;
+     font-weight: 600;
+     margin-left: 100px;
+}
+
+.middle-left>p{
+    font-size: 20px;
+    margin-left: 100px;
+    color: rgb(128, 128, 128);
+    margin-top: 30px;
+}
+
+.button-2{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(94, 133, 94);
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.middle-right{
+    
+    margin-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.para-3{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .para-3-left{
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+} */
+
+.image-4{
+    width: 350px;
+    height: 350px;
+    margin-left: 70px;
+}
+
+.para-3-right>h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-right: 150px;
+}
+
+.para-3-right>p{
+    font-size: 20px;
+    margin-right: 150px;
+    color: rgb(128, 128, 128);
+    margin-top: 20px;
+}
+
+.button-3{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(94, 133, 94);
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+
+.para-4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.image-5{
+    width: 350px;
+    height: 350px;
+    margin-right: 70px;
+}
+
+.para-4-left>h3{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.para-4-left>p{
+    font-size: 20px;
+    margin-left: 150px;
+    color: rgb(128, 128, 128);
+    margin-top: 20px;
+}
+
+.button-4{
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(94, 133, 94);
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.para-5{
+    display: flex;
+    justify-content: space-between;
+}
+
+.para-5-left{
+    font-size: 40px;
+    margin-left: 140px;
+    font-weight: 600;
+}
+
+.para-5-right{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(88, 88, 88);
+    margin-right: 90px;
+}
+
+.para-6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.para-6-1{
+    margin-left: 90px;
+}
+
+.img-1{
+    width: 300px;
+    height: 400px; 
+}
+
+.para-6-1>h4{
+    font-size: 25px;
+    padding: 30px 0px;
+}
+
+.para-6-1>p{
+    font-size: 18px;
+}
+
+
+
+.para-7-1{
+    margin-left: 50px;
+}
+
+.img-2{
+    width: 300px;
+    height: 400px;
+}
+
+.para-7-1>h4{
+    font-size: 25px;
+    padding: 30px 0px;
+}
+
+.para-7-1>p{
+    font-size: 18px;
+}
+
+.para-8-1{
+    margin-left: 50px;
+}
+
+.img-3{
+    width: 300px;
+    height: 400px;
+}
+
+.para-8-1>h4{
+    font-size: 25px;
+    padding: 30px 0px;
+}
+
+.para-8-1>p{
+    font-size: 18px;
+}
+
+.button-last{
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(54, 78, 65);
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 50px;
+    font-size: 20px;
+
+}
+
+footer {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(25, 24, 27);
+    color: white;
+    padding: 20px;
+    position: absolute;
+    right: 0px;
+}
+
+.image-one {
+    color: white;
+    filter: invert(100%);
+    width: 70px;
+    margin-left: 120px;
+}
+
+
+
+.footer-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-brands{
+    background-color: rgb(94, 94, 94);
+    border-radius: 50%;
+    /* opacity: 0.5; */
+    height:30px;
+    width: 30px;
+    color: white;
+    margin-right: 50px;
+}
+
+.line {
+    height: 2px;
+    width: 85vw;
+    background-color: rgb(90, 89, 89);
+    opacity: 0.6;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+.footer-two {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    line-height: 2;
+    margin-top: 25px;
+}
+
+ul>li {
+    list-style-type: none;
+    color: rgb(119, 119, 119);
+    line-height: 2;
+    margin-top: 20px;
+}
+
+.logo-1{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+.fa-brands{
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:480px) {
+    .nav-items{
+        display: none;
+    }
+
+    .logo{
+        width: 50px;
+    }
+
+    .button-1{
+        padding: 5px 10px;
+    }
+    
+    .para-1{
+        background-color: rgba(55, 55, 58, 0.753 );
+        display: flex;
+        justify-content: space-between;
+        height: 300px;
+    }
+    
+    .para-1-left{
+        display: none;
+    }
+    
+    .para-1-right > h2{
+        color: white;
+        font-size: 20px;
+        margin-left: 70px;
+    }
+    
+    .para-1-right > p{
+     display: none;
+    }
+    
+    
+    .newsletter form{
+        display: none;
+    }
+
+    .para-2-middle{
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .nav-items-1{
+        display: none;
+    }
+
+    .nav-items-2{
+        display: none;
+    }
+    
+    
+    .image-2{
+        display: none;  
+    }
+    
+    .image-0{
+        margin-left: 20px;
+        width: 250px;
+        height: 200px;
+    }
+
+    .middle-1{
+        font-size: 15px;
+    }
+    
+    .middle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .middle-left>h3{
+        margin-top: 50px;
+         font-size: 30px;
+         font-weight: 600;
+         margin-left: 70px;
+    }
+    
+    .middle-left>p{
+        font-size: 20px;
+        margin-left: 70px;
+        color: rgb(128, 128, 128);
+        margin-top: 30px;
+    }
+    
+    .para-3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .image-4{
+        margin-left: 0px;
+        width: 300px;
+        margin-bottom: 50px;
+    }
+    
+    .para-3-right>h3{
+        font-size: 30px;
+        font-weight: 600;
+        margin-right: 0px;
+    }
+    
+    .para-3-right>p{
+        font-size: 15px;
+        margin-right: 150px;
+        color: rgb(128, 128, 128);
+        margin-top: 20px;
+    }
+        
+    .para-4{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .image-5{
+        width: 300px;
+        height: 250px;
+    }
+    
+    .para-4-left>h3{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    
+    .para-4-left>p{
+        font-size: 15px;
+        margin-left: 0px;
+        color: rgb(128, 128, 128);
+        margin-top: 20px;
+    }
+    
+    .button-4{
+        margin-bottom: 50px;
+        margin-left: 0px;
+    }
+    
+    .para-5{
+        display: none;
+    }
+    
+    .para-6{
+        display: none;
+    }
+
+    .button-last{
+        padding: 5px 10px;
+        text-align: center;
+        margin-top: 0px;
+        margin-left: 100px;
+        margin-bottom: 50px;
+        font-size: 15px;
+    
+    }
+    
+    footer {
+        height: 30vh;
+        width: 100%;
+        background-color: rgb(25, 24, 27);
+        color: white;
+        padding: 20px;
+        position: absolute;
+        right: 0px;
+    }
+    
+    .logo-1{
+        width: 80px;
+        margin-left: 0px;
+    }
+    
+    
+    
+    .footer-one {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .fa-brands{
+        height:15px;
+        width: 15px;
+        margin-right: 20px;
+    }
+    
+    .line {
+        display: none;
+    }
+    
+    .footer-two {
+        display: none;
+    }
+}
+
+@media screen  and (min-width:480px) and (max-width:960px) {
+    .logo{
+        width: 50px;
+        margin-top: 27px;
+    }
+    
+    .nav-item {
+        font-size: 10px;
+    }
+    
+    .button-1{
+        padding: 5px 10px;
+    }
+    
+    .para-1{
+        background-color: rgba(55, 55, 58, 0.753 );
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+    }
+    
+    .para-1-left{
+        margin-left: 40px;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+    
+    .image-1{
+        width: 250px;
+        height: 300px;
+    }
+    
+    .para-1-right > h2{
+        color: white;
+        font-size: 30px;
+        margin-right: 0px;
+        margin-top: 70px;
+        
+    }
+    
+    .para-1-right > p{
+        color: rgb(185, 182, 182);
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    
+    
+    .newsletter form{
+        width: 380px;
+        max-width: 100%;
+        position: relative;
+        margin-right: 20px;
+    }
+    
+    .newsletter form input:first-child{
+        padding: 10px 0px 15px 10px;
+        margin-right: 50px;
+    }
+    
+    .newsletter form input:last-child{
+        padding: 5px 30px;
+        margin-top: 30px;
+        top: 6px;
+        right: 35px;
+    }
+    
+    .nav-item-1{
+        padding: 20px 70px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    .nav-item-2{
+        padding: 0px 30px;
+        font-size: 15px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 20px;
+    }
+    
+    .image-0{
+        margin-left: 50px;
+    }
+    
+    .middle-left>h3{
+        margin-top: 100px;
+         font-size: 30px;
+         font-weight: 600;
+         margin-left: 50px;
+    }
+    
+    .middle-left>p{
+        font-size: 12px;
+        margin-left: 50px;
+        margin-top: 30px;
+    }
+    
+    .button-2{
+        margin-left: 50px;
+    }
+ 
+    .middle-right{
+        margin-right: 0px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .image-4{
+        width: 300px;
+        height: 300px;
+        margin-left: 70px;
+    }
+    
+    .para-3-right>h3{
+        font-size: 30px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    
+    .para-3-right>p{
+        font-size: 12px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    
+    .button-3{
+        padding: 10px 20px;
+        color: white;
+        background-color: rgb(94, 133, 94);
+        border: none;
+        border-radius: 0px;
+        margin-top: 20px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+    
+    
+    .para-4{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    
+    .image-5{
+        width: 300px;
+        height: 300px;
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    
+    .para-4-left>h3{
+        font-size: 30px;
+        font-weight: 600;
+        margin-left: 50px;
+        margin-top: 80px;
+    }
+    
+    .para-4-left>p{
+        font-size: 12px;
+        margin-left: 50px;
+    }
+    
+    .button-4{
+        margin-left: 50px;
+    }
+      
+    .para-5-left{
+        font-size: 30px;
+        margin-left: 50px;
+    }
+    
+    .para-5-right{
+        font-size: 12px;
+        font-weight: 600;
+        color: rgb(88, 88, 88);
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+        
+    .para-6-1{
+        margin-left: 0px;
+    }
+    
+    .img-1{
+        width: 200px;
+        height: 300px;
+    }
+
+    .para-6-1>h4{
+        font-size: 20px;
+    }
+    
+    .para-6-1>p{
+        font-size: 12px;
+    }
+    
+    .para-7-1{
+        margin-left: 20px;
+    }
+    
+    .img-2{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .para-7-1>h4{
+        font-size: 20px;
+    }
+    
+    .para-7-1>p{
+        font-size: 12px;
+    }
+    
+    .para-8-1{
+        margin-left: 20px;
+    }
+    
+    .img-3{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .para-8-1>h4{
+        font-size: 18px;
+    }
+    
+    .para-8-1>p{
+        font-size: 12px;
+    }
+    
+    .button-last{
+        margin-left: 280px;
+    }
+
+    footer {
+        height: 100vh;
+    }
+    
+    .fa-brands{
+        height:10px;
+        width: 10px;
+        color: white;
+        margin-right: 100px;
+    }
+    
+    .line {
+        margin-left: 50px;
+    }
+    
+    .logo-1{
+        margin-left: 100px;
+        width: 80px;
+    }
+    
+    
+}
